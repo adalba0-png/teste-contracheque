@@ -11,13 +11,7 @@ st.set_page_config(page_title="Painel Administrativo - Contracheques", layout="w
 
 def conectar_bd():
     """Estabelece conexão com o banco de dados SQLite local."""
-   
-
-# LOCAL (O seu original - MANTENHA ASSIM)
-# return sqlite3.connect(r'C:\temp\contra\portal_contracheque.db')
-
-# INTERNET (Mude apenas para o teste na web)
-return sqlite3.connect('portal_contracheque.db')
+    return sqlite3.connect('portal_contracheque.db')
 
 
 
